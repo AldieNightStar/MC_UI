@@ -2,6 +2,11 @@
 ### by HaxiDenti
 [![](https://jitpack.io/v/AldieNightStar/MC_UI.svg)](https://jitpack.io/#AldieNightStar/MC_UI)
 
+* Plugin name (for dependency): `mc_ui`
+
+# Dependencies
+* `kotlin-stdlib`
+
 # Usage
 ```kotlin
 // Open Paged UI for player
