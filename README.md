@@ -1,5 +1,6 @@
 # MC UI
 ### by HaxiDenti
+[![](https://jitpack.io/v/AldieNightStar/MC_UI.svg)](https://jitpack.io/#AldieNightStar/MC_UI)
 
 # Usage
 ```kotlin
