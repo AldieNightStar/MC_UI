@@ -1,2 +1,0 @@
-C:\Users\aldie\OneDrive\Робочий стіл\mc_ui\src\main\kotlin\haxidenti\mcui\CoreUI.kt
-C:\Users\aldie\OneDrive\Робочий стіл\mc_ui\src\main\kotlin\haxidenti\mcui\MCUiMain.kt
