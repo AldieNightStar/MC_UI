@@ -11,22 +11,24 @@ import org.bukkit.event.player.AsyncPlayerChatEvent
 import org.bukkit.inventory.ItemStack
 import org.bukkit.plugin.java.JavaPlugin
 import java.io.File
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.atomic.AtomicReference
 
 class MCUiMain : JavaPlugin(), Listener {
 
-    override fun onEnable() {
-        Bukkit.getServer().pluginManager.registerEvents(this, this)
-    }
-
-    @EventHandler
-    fun randomEvent(event: AsyncPlayerChatEvent) {
-        if (!event.message.startsWith(".")) return;
-        event.isCancelled = true
-        // Event action for testing
-
-        Bukkit.getScheduler().scheduleSyncDelayedTask(this) {
-            val items = Material.values().map { mat -> CoreUiItem(mat) { event.player.sendMessage(mat.name) } }
-            PagedCoreUI(this, "Some test", items, 0, event.player)
-        }
-    }
+//    override fun onEnable() {
+//        Bukkit.getServer().pluginManager.registerEvents(this, this)
+//    }
+//
+//    @EventHandler
+//    fun randomEvent(event: AsyncPlayerChatEvent) {
+//        if (!event.message.startsWith(".")) return;
+//        event.isCancelled = true
+//        // Event action for testing
+//
+//        Bukkit.getScheduler().scheduleSyncDelayedTask(this) {
+//            val items = Material.values().map { mat -> CoreUiItem(mat) { event.player.sendMessage(mat.name); event.player.closeInventory() } }
+//            PagedCoreUI(this, "Some test", items, 0, event.player)
+//        }
+//    }
 }

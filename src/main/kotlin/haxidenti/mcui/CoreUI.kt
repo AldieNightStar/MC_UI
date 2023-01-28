@@ -11,6 +11,8 @@ import org.bukkit.event.inventory.InventoryClickEvent
 import org.bukkit.event.inventory.InventoryCloseEvent
 import org.bukkit.inventory.ItemStack
 import org.bukkit.plugin.Plugin
+import java.util.logging.Level
+import kotlin.math.log
 
 class PagedCoreUI(
     val plugin: Plugin,
