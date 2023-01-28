@@ -1,0 +1,19 @@
+main: haxidenti.mcui.MCUiMain
+name: mc_ui
+version: 1.0
+author: HaxiDenti
+description: mc_ui plugin
+api-version: 1.13
+depend:
+    - kotlin-stdlib
+# commands:
+#     mycommand:
+#       description: An example command
+#       usage: /mycommand
+#       permission: myplugin.mycommand
+#       permission-message: You don't have the myplugin.mycommand permission.
+#     someCommand2:
+#       description: An example command
+#       usage: /mycommand
+#       permission: myplugin.mycommand
+#       permission-message: You don't have the myplugin.mycommand permission.
